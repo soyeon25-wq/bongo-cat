@@ -24,7 +24,7 @@ const KeyEnum = Object.freeze({
   "9": 9,
   "0": 0,
   " ": 0,
-  "C": 1,
+  "X": 1,
   "Q": 1,
   "W": 2,
   "E": 3,
@@ -53,7 +53,7 @@ const InstrumentPerKeyEnum = Object.freeze({
   "9": InstrumentEnum.KEYBOARD,
   "0": InstrumentEnum.KEYBOARD,
   " ": InstrumentEnum.MEOW,
-  "C": InstrumentEnum.CYMBAL,
+  "X": InstrumentEnum.CYMBAL,
   "Q": InstrumentEnum.MARIMBA,
   "W": InstrumentEnum.MARIMBA,
   "E": InstrumentEnum.MARIMBA,
@@ -79,7 +79,7 @@ const TapKeyEquivalentEnum = Object.freeze({
   },
   "tap-right": {
     "BONGO": ["D"],
-    "CYMBAL": ["C"],
+    "CYMBAL": ["X"],
     "TAMBOURINE": ["B"],
     "COWBELL": ["F"]
   },
